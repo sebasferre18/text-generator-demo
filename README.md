@@ -33,4 +33,4 @@ docker build -t text-generator-demo .
 docker run -it -p 7860:7860 text-generator-demo
 ```
 
-And you're ready to go! Now you can go to /docs in the browser or send GET requests to /generate in order to generate text. The query param key for the text input is called "text".
+And you're ready to go! The app will be running at http://localhost:7860, now you can go to `/docs` in the browser or send GET requests to `/generate` in order to generate text. The query param key for the text input is called `text`.
